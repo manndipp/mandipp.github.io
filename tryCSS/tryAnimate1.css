@@ -1,29 +1,33 @@
 body {
-    background: #333;
-}
+    background:black;
+    background-image:url(../img/mandip.png);
+    background-repeat: no-repeat;
+    background-position:top right;
+} 
 
 
 .box {
  background: white;
  width: 200px;
  height: 200px;
- position: relative;
+ position:absolute;
+ left: 500px; top: 200px;
  animation-name: myanimation;
  animation-duration: 2s;   
  animation-iteration-count: infinite;
  animation-direction: alternate;
- animation-play-state: paused ;
+ animation-play-state: running  ;
 
 }
 
 
 .box:hover{
- animation-play-state: running;
+ animation-play-state: paused;
 }
  
 
 @keyframes myanimation {
-        0% {background-color: white; border-radius: 0 0 0 0}
+        0% {background-color: white;border-radius: 0 0 0 0}
         25% {background-color: red;border-radius: 50% 0 0 0}
         50% {background-color:green;border-radius: 50% 50% 0 0}
         75%{background-color: yellow;border-radius: 50% 50% 50% 0}

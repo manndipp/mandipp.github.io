@@ -1,0 +1,25 @@
+
+body {
+    background-color: white;
+}
+
+video{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    padding: 0px;
+    left: 400px;
+    top: 30px;
+    opacity: 0.7;
+}
+
+div.hi {
+    font-size: 20px;
+    text-align: center;
+}
+
+div.name {
+    font-size: 10px;
+    text-align: center;
+}
+
